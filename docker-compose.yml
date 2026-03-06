@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  forecasting-engine:
+    build: ./forecasting-engine
+    ports:
+      - "5000:5000"
+  supplier-collaboration-api:
+    build: ./supplier-collaboration-api
+    ports:
+      - "3000:3000"
+  sap-integration-adapters:
+    build: ./sap-integration-adapters
+  supplier-portal-frontend:
+    build: ./supplier-portal-frontend
+    ports:
+      - "3001:3001"
+  notification-service:
+    build: ./notification-service
+    ports:
+      - "3002:3002"

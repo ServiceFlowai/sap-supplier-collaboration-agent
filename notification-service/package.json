@@ -1,0 +1,9 @@
+{
+  "name": "notification-service",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "nodemailer": "^6.4.11",
+    "twilio": "^3.55.0"
+  }
+}
